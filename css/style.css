@@ -170,6 +170,7 @@ body {
 .featured-projects {
     padding: 80px 5%;
     background-color: #f8f9fa;
+    position: relative;
 }
 
 .featured-projects h2 {
@@ -246,7 +247,7 @@ body {
 
 
 .btn-primary.all-projects-btn {
-    margin-left: 4%; 
+    margin-left: 5%; 
     margin-top: 0; 
     padding: 12px 24px;
     border-radius: 5px;
@@ -296,7 +297,7 @@ body {
 }
 
 .skill-progress {
-    background-color: #2ce0a1; 
+    background-color: #ff5e00; 
     height: 100%;
     width: 0; 
     border-radius: 4px;
