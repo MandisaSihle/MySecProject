@@ -184,20 +184,21 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;          
 }
 
 .project-card {
     background-color: #ffffff;
-    color: black;
-    border-radius: 15px; 
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     padding: 30px;
-    max-width: 600px; 
+    width: 600px;              
+    min-height: 200px;         
     text-align: left;
     border: 1px solid #e9ecef;
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 0 0 auto;
 }
 
 .project-card:hover {
@@ -256,7 +257,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    margin-left: 4%; 
+    margin-left: 1%; 
 }
 
 /* --- My Skills Section --- */
@@ -555,6 +556,10 @@ body {
         font-size: 2rem;
     }
 
+    .project-card {
+        width: 100%; 
+        min-height: auto;
+    }
     .card,
     .project-card {
         max-width: 100%; 
