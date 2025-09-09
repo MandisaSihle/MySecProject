@@ -247,19 +247,21 @@ body {
     font-weight: 600;
 }
 
-
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%; /
+}
 
 .btn-projects {
-   margin-left: 1%;       
-    margin-right: auto;    
     display: inline-block;
+    background-color: #dc0a9d;
+    color: white;
+    border: 2px solid #bc283c;
     padding: 12px 24px;
     border-radius: 5px;
-    text-decoration: none;
     font-weight: bold;
-    border: 2px solid #bc283c;
-    background-color:#dc0a9d;
-    color: white;
+    text-decoration: none;
 }
 
 /* --- My Skills Section --- */
@@ -552,6 +554,10 @@ body {
         height: 400px;
     }
 
+    .button-container {
+    justify-content: center;
+    padding-left: 0;
+    }
     
     .what-i-do h2,
     .featured-projects h2 {
