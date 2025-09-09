@@ -4,7 +4,7 @@ body {
     margin: 0;
     background-color: #f8f9fa;
     color: #343a40;
-    overflow-x: hidden; /
+    overflow-x: hidden; 
 }
 
 /* --- Navigation Bar --- */
@@ -248,16 +248,18 @@ body {
 }
 
 
+
 .btn-projects {
-    background-color:  #dc0a9d;
-    border: 2px solid  #dc0a9d;
-    color: white;
+   margin-left: 1%;       
+    margin-right: auto;    
+    display: inline-block;
     padding: 12px 24px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    display: inline-block;
-    margin-left: 1%; 
+    border: 2px solid #bc283c;
+    background-color:#dc0a9d;
+    color: white;
 }
 
 /* --- My Skills Section --- */
